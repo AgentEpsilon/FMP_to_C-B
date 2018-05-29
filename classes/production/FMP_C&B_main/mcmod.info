@@ -3,7 +3,7 @@
   "modid": "fmp_to_cb",
   "name": "FMP to CB",
   "description": "Convert Forge Microblocks to Chisels & Bits structures.",
-  "version": "${version}",
+  "version": "1.0.0",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
@@ -11,6 +11,6 @@
   "credits": "The teams of Forge, FMP CBE, and C&B",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["forgemultipartcbe", "microblockcbe", "chiselsandbits"]
 }
 ]

@@ -1,26 +1,20 @@
 package agentepsilon.fmp_to_cb;
 
-import codechicken.lib.vec.Cuboid6;
 import codechicken.microblock.IMicroMaterial;
 import codechicken.microblock.MicroMaterialRegistry;
 import codechicken.microblock.Microblock;
-import codechicken.multipart.MultipartGenerator;
 import codechicken.multipart.TMultiPart;
 import codechicken.multipart.TileMultipart;
 import mod.chiselsandbits.api.APIExceptions;
 import mod.chiselsandbits.api.IBitAccess;
-import mod.chiselsandbits.chiseledblock.data.VoxelBlob;
 import mod.chiselsandbits.core.ChiselsAndBits;
-import net.minecraft.block.material.Material;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.Tuple;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.Chunk;
 
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
